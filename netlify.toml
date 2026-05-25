@@ -1,1 +1,7 @@
-追加機能: 課題一覧ページ、繰り返し予定、検索ページ、やばい順表示。
+[build]
+  publish = "."
+  command = "npm install"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
